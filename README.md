@@ -1,4 +1,4 @@
-#AppWeb_Directory_Collector (AWDC)
+# AppWeb_Directory_Collector (AWDC)
 Essa é uma ferramenta para coletar diretórios de diversos subdomínios.
 
 # Como usar.
