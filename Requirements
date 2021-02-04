@@ -1,0 +1,10 @@
+#Requirements
+
+#Python
+os
+requests
+readline
+multiprocessing.dummy 
+
+#Ferramenta
+Dirb
