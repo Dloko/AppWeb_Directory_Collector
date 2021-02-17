@@ -40,7 +40,7 @@ for linha in arquivo:
             Awdc.write("\n")
 
 
-    def func1(*args):
+    def func1(**kwargs):
         os.popen("dirb " + d + " -w common.txt -o awdc.txt").read()
     p = mp.Pool(20)
     p.map(func1, range(0, 1))
