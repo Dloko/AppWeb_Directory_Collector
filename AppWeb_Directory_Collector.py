@@ -42,8 +42,8 @@ for linha in arquivo:
                 Awdc.write("\n")
 
         os.popen("dirb " + d + " -w common.txt -o awdc.txt").read()
+        os.popen("echo >> awdc2.txt").read()
+        os.popen("cat awdc.txt | grep '" + d + "' | grep 'CODE:200' | cut -d ' ' -f2 | uniq -u >> awdc2.txt").read()
     except:
         print(" ")
 
-
-os.popen("cat awdc.txt | grep '" + d + "' | grep 'CODE:200' | cut -d ' ' -f2 | uniq -u >> awdc2.txt").read()
